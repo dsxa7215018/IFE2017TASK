@@ -1,0 +1,122 @@
+	body {
+		background-color: #00DDDD;
+		font-family: "Microsoft Yahei";
+		margin: 0px;
+		padding: 0px;
+	}
+    header {
+    	height: 60px;
+    	background-color: rgb(0,0,0);
+    	margin: 0px;
+    }
+    header img {
+    	margin-left: 20px;
+    	border: 1px solid black;
+    }
+    header ul {
+    	float: right;
+    	height: 58px;
+    	padding: 0px;
+    	margin: 0px;
+    	list-style: none;
+    }
+    header ul li {
+    	float: left;
+    }
+    header ul a {
+    	display: block;
+    	width: 80px;height: 58px;
+    	padding: 0 10px;
+    	text-decoration: none;
+    	color: white;
+    	line-height: 4em;
+        
+    }
+    header ul a:hover {
+    	background-color: red;
+    	border: 1px solid yellow;
+  
+    }
+    footer {
+    	background-color: black;
+    	text-align: center;
+    	margin: 0px;
+    	color: white;
+    	height: 40px;
+    	padding: 10px;
+    }
+    article,section {
+    	background-color: white;
+    	margin: 20px;
+    	box-shadow: 1px 1px 2px black;
+    	padding: 20px;
+    }
+    h3 {
+       font-size: 18px;
+    }
+    .author {
+    	font-size: 12px;
+    	color: red;
+    }
+    ul {
+    	list-style: none;
+    }
+    section figure {
+        display: inline-block;
+    	border: 1px solid black;
+    	padding: 10px;
+    	text-align: center;
+    	width: 100px;
+    	height: 120px;
+    	margin: 10px;
+    }
+    article table {
+    	width: 100%;
+    	border-collapse: collapse;
+    }
+    article table th {
+    	background-color: black;
+    	color: white;
+    	text-align: left;
+    }
+    article table .spctr {
+    	background-color: #00DDDD;
+    }
+    aside {
+    	float: right;
+    	background-color: white;
+        margin: 20px;
+    	width: 310px;
+    	box-shadow: 1px 1px 2px black;
+    	padding: 20px;
+    }
+    aside h3 {
+    	font-size: 16px;
+    	text-align: center;
+    }
+    aside .firstfm {
+    	text-align: right;
+    }
+    aside .firstfm p {
+    	font-size: 12px;
+    	opacity: 0.5;
+    }
+    aside .firstfm .spcp {
+    	margin-right: 35px;
+    }
+    aside .secondfm {
+    	text-align: right;
+    }
+    aside .secondfm button {
+
+    	padding: 10px;
+    	background-color: blue;
+    	color: white;
+    	border-radius: 10px;
+    	font-size: 16px;
+    	font-weight: 400;
+    	width: 100%;
+    }
+    main {
+    	margin-right: 370px;
+    }
