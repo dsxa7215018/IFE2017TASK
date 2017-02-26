@@ -1,0 +1,107 @@
+	body {
+		background-color: #00DDDD;
+		font-family: "Microsoft Yahei";
+		margin: 0px;
+		padding: 0px;
+	}
+    header {
+    	height: 60px;
+    	background-color: rgb(0,0,0);
+    	margin: 0px;
+    }
+    header img {
+    	margin-left: 20px;
+    	border: 1px solid black;
+    }
+    header ul {
+    	float: right;
+    	height: 58px;
+    	padding: 0px;
+    	margin: 0px;
+    	list-style: none;
+    }
+    header ul li {
+    	float: left;
+    }
+    header ul a {
+    	display: block;
+    	width: 80px;height: 58px;
+    	padding: 0 10px;
+    	text-decoration: none;
+    	color: white;
+    	line-height: 4em;
+        
+    }
+    header ul a:hover {
+    	background-color: red;
+    	border: 1px solid yellow;
+  
+    }
+    footer {
+    	background-color: black;
+    	text-align: center;
+    	margin: 0px;
+    	color: white;
+    	height: 40px;
+    	padding: 10px;
+    }
+    article,aside,section {
+    	background-color: white;
+    	margin: 20px;
+    	box-shadow: 1px 1px 2px black;
+    	padding: 20px;
+    }
+    h3 {
+       font-size: 18px;
+    }
+    .author {
+    	font-size: 12px;
+    	color: red;
+    }
+    ul {
+    	list-style: none;
+    }
+    section figure {
+    	border: 1px solid black;
+    	padding: 20px;
+    	width: 250px;
+    	text-align: center;
+    }
+    article table {
+    	width: 100%;
+    	border-collapse: collapse;
+    }
+    article table th {
+    	background-color: black;
+    	color: white;
+    	text-align: left;
+    }
+    article table .spctr {
+    	background-color: #00DDDD;
+    }
+    aside .firstfm {
+    	width: 600px;
+    	text-align: right;
+    }
+    aside .firstfm p {
+    	font-size: 12px;
+    	opacity: 0.5;
+    }
+    aside .firstfm .spcp {
+    	margin-right: 35px;
+    }
+    aside .secondfm {
+    	text-align: left;
+    	width: 600px;
+        margin-left: 375px;
+    }
+    aside .secondfm button {
+    	width: 210%;
+    	padding: 10px;
+    	margin-left: -375px;
+    	background-color: blue;
+    	color: white;
+    	border-radius: 10px;
+    	font-size: 16px;
+    	font-weight: 400;
+    }
